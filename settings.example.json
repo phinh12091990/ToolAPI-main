@@ -1,0 +1,34 @@
+{
+  "connection_type": "api",
+  "scope": {
+    "notes": "Mô tả phạm vi dữ liệu cần lấy"
+  },
+  "api": {
+    "url": "https://your-api-server.com",
+    "swagger_url": "https://your-api-server.com/swagger",
+    "auth": {
+      "type": "bearer",
+      "token": "YOUR_API_TOKEN",
+      "api_key": "",
+      "username": "",
+      "password": ""
+    }
+  },
+  "database": {
+    "host": "your-db-host",
+    "port": 5432,
+    "database": "your-db-name",
+    "username": "your-db-user",
+    "password": "YOUR_DB_PASSWORD"
+  },
+  "dashboard": {
+    "source_folder": "/path/to/dashboard/source"
+  },
+  "sync": {
+    "enabled": false,
+    "schedule": "59 23 * * *"
+  },
+  "gemini": {
+    "api_key": "YOUR_GEMINI_API_KEY"
+  }
+}

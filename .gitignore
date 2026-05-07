@@ -1,0 +1,9 @@
+.claude/
+node_modules/
+dist/
+generated/
+error.log
+mapping.json
+mapping.backup.json
+settings.json
+learned-fixes.json

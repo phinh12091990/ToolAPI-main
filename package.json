@@ -1,0 +1,32 @@
+{
+  "name": "tool-api-tu-dong",
+  "version": "1.0.0",
+  "description": "Tool tự động kết nối và thông dịch dữ liệu giữa Dashboard và API Server",
+  "scripts": {
+    "vibe-check": "tsx src/index.ts vibe-check",
+    "map": "tsx src/index.ts map",
+    "validate": "tsx src/index.ts validate",
+    "generate": "tsx src/index.ts generate",
+    "diff": "tsx src/index.ts diff",
+    "sync": "tsx src/index.ts sync",
+    "schedule": "tsx src/index.ts schedule",
+    "map-db": "tsx src/index.ts map-db",
+    "web": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.51.0",
+    "@google/generative-ai": "^0.24.1",
+    "express": "^4.19.0",
+    "groq-sdk": "^1.1.2",
+    "node-cron": "^3.0.3",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^22.0.0",
+    "@types/node-cron": "^3.0.0",
+    "@types/pg": "^8.20.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.0.0"
+  }
+}
