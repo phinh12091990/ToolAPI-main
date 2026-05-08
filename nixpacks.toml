@@ -1,0 +1,5 @@
+[phases.install]
+cmds = ['npm ci --include=dev']
+
+[start]
+cmd = 'npx tsx src/server.ts'
